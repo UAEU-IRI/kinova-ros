@@ -15,15 +15,14 @@ from kinova_msgs.srv import *
 import argparse
 from robot_control_modules import *
 
-prefix = 'j2s7s300_'
-nbJoints = 7
+prefix = 'j2s6s300_'
+nbJoints = 6
 interactive = True
 duration_sec = 100
 
 
 if __name__ == '__main__':
 	try:        
-		prefix, nbJoints = argumentParser(None)	
 		rospy.init_node('torque_compensated_mode')
 		if (interactive == True):        
 			nb = raw_input("Moving robot to candle like position, and setting zero torques, press return to start, n to skip")

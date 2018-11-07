@@ -75,7 +75,7 @@
     <xacro:property name="joint_3_upper_limit" value="${341/180*J_PI}" />
 
     <xacro:property name="joint_4" value="joint_4" />
-    <xacro:property name="joint_4_type" value="continuous" />
+    <xacro:property name="joint_4_type" value="continuous" />prefix
     <xacro:property name="joint_4_axis_xyz" value="0 0 1" />
     <xacro:property name="joint_4_origin_xyz" value="0 0.2073 -0.0114" />
     <xacro:property name="joint_4_origin_rpy" value="${-J_PI/2} 0 ${J_PI}" />
