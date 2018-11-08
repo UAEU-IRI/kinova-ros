@@ -51,7 +51,7 @@
   <joint name="right_arm_attach" type="fixed">
     <child link="right_arm_mount" />
     <parent link="root" />
-    <origin xyz="0 -0.5 0" rpy="0 0 0" />    
+    <origin xyz="0 0.5 0" rpy="0 0 0" />    
   </joint> 
 
   <xacro:j2s6s300  base_parent="left_arm_mount" prefix="left"/>

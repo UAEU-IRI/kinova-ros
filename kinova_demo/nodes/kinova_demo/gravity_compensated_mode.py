@@ -15,7 +15,7 @@ from kinova_msgs.srv import *
 import argparse
 from robot_control_modules import *
 
-prefix = 'j2s6s300_'
+prefix = 'left_'
 nbJoints = 6
 interactive = True
 duration_sec = 100
